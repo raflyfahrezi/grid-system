@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    gap: 30px
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.kotak1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    line-height: 50px;
+    margin: 0 auto;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.kotak2{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    margin: 0 auto;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.kotak3{
+    width: 100%;
+    height: 100%;
+    background-color: silver;
+    margin: 0 auto;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.kotak4{
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+
+.kotak5{
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+    margin: 0 auto;
+}
+
+.kotak6{
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    margin: 0 auto;
+}
+
+.kotak7{
+    width: 100%;
+    height: 100%;
+    background-color: lightcyan;
+    margin: 0 auto;
+}
+
+.kotak8{
+    width: 100%;
+    height: 100%;
+    background-color: lightsteelblue;
+    margin: 0 auto;
+}
+
+.kotak9{
+    width: 100%;
+    height: 100%;
+    background-color: lightsalmon;
+    margin: 0 auto;
+}
+
+.kotak10{
+    width: 100%;
+    height: 100%;
+    background-color: lightsteelblue;
+    margin: 0 auto;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
